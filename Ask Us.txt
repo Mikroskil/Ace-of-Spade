@@ -1,0 +1,71 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ask Us</title>
+<link rel="stylesheet" href="css/Ask.css">
+<link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+		<header id="main_header">
+    	<div class="main_menu">
+		<ol>
+    		<li><a href="home setelah log.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+        	<li>Culture List</li>
+        	<li class="ask"><a href="css/Ask.css">Ask Us</li>
+        	<li>Chat Room</li>
+    	</ol>
+        </div>
+        </header>
+    
+    <div class="slideshow">
+    </div>
+    
+    <div class="content">
+    	<div id="ask-us">
+        <fieldset>
+        <legend>Ask Us</legend>
+        </fieldset>
+        </div>
+        <div id="testimonial">
+        </div>
+        
+        <div class="testimonial">
+        <fieldset>        
+        <legend>Testimonial</legend>
+        	<div class="user1">
+        		<p>User 1</p>
+        		<div class="profiluser">
+        		</div>
+            	<div class="comment">
+            	<p>Isi Comment</p>
+            	</div>   
+            </div>
+      
+        
+        	<div class="user2">
+        		<p>User 2</p>
+        		<div class="profiluser">
+        		</div>
+            	<div class="comment">
+            	<p>Isi Comment</p>
+            	</div>
+        	</div>
+        </fieldset>
+        </div>
+    </div>
+    
+    <section class="aside">
+     	<div class="profil">
+        <div class="propic">
+        </div>
+        <p class="prop"><a href="profile.html">User Profil</a></p>
+        </div>
+     <div class="popular">
+        <p class="threads">Popular Threads</p>
+     </div>
+     </section>
+     </content>
+     <footer ><div class="footer"></div></footer>
+</body>
+</html>
