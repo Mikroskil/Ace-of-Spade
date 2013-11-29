@@ -1,0 +1,114 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ol li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.ask{
+	background:linear-gradient(#6cb4e6,#4c96c9);
+	border-radius : 7px;
+	background-image:url(../image/as2.jpg);
+	padding : 10px;
+	border:1px solid #930;
+}
+
+.slideshow {
+	width: 940px;
+	height: 150px;
+	border: solid 1px #000;
+}
+
+.content {
+	float: left;
+	width: 60%;
+	border: solid 2 px #000;
+}
+
+fieldset {
+	margin-top: 25px;
+	height: 400px;
+}
+
+.aside {
+	float: right;
+	width: 30%;
+	margin-right: 5px;
+}
+
+.avatar {
+	width: 273px;
+	height: 250px;
+	border: solid 1px #000;
+	margin-top: 33px;
+}
+
+.popular fieldset {
+	width: 250px;
+	height: 300px;
+	margin-top: 25px;
+}
+
+fieldset p {
+	width: 50px; 
+	border: solid 1px #000;
+	font-size: 14px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.user1 {
+	float: left;
+}
+
+.user2 {
+	float: right;
+}
+
+.user2 p {
+	width: 50px; 
+	border: solid 1px #000;
+	font-size: 14px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.profiluser {
+	border: solid 1px #000;
+	width: 175px;
+	height: 150px;
+}
+
+.comment {
+	margin-top: 20px;
+	border: solid 1px #000;
+	width: 250px;
+	height: 300px;
+}
+
+.comment p {
+	border: none;
+	width: 100px;
+}
+
+.testimonial fieldset {
+	height: 550px;
+}
+
+.ava-pic {
+	width: 250px;
+	height: 200px;
+	border: solid 1px #000;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.avatar p {
+	text-align: center;
+	margin-top: 5px;
+}
