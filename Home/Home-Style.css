@@ -1,0 +1,109 @@
+@font-face{
+	font-family: "dinpro";
+	src:url("fonts/DINPRO-BLACK.otf");
+}
+@font-face{
+	font-family: "necroman";
+	src:url("fonts/necroman.ttf");
+}
+@font-face{
+	font-family: "helvetican";
+	src:url("fonts/HELVETICANEUELTPRO-ROMAN.OTF");
+}
+body{
+	background: rgba(190, 190, 190, 0.2);
+	font-family: "helvetican";
+}
+#container > header{
+	color: #CCC;
+	padding: 5px 10px;
+	background:  #333;
+}
+.logo{
+	font-family: "dinpro";
+	margin: 0;
+	display: inline;
+	font-size:24px;
+}
+nav {
+	float: right;
+	margin-top: 6px;
+}
+nav > a{
+	text-decoration: none;
+	color: #CCC;
+	padding: 11px 15px;
+}
+nav > a:hover{
+	background: #555;
+}
+
+#container > h1,#container > h2{
+	text-align: center;
+}
+#container > h1{
+	font-size: 75px; 
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+#container > h2{
+	margin-bottom: 30px;
+}
+#content1 > article > h3{
+	text-align: center;
+}
+blockquote{
+	border-bottom: 1px dashed #9F4B21;
+	border-top: 1px dashed #9F4B21; 
+	border-right: 1px dashed #9F4B21;
+	line-height: 1.75em;
+	padding: 10px 25px 10px 0;
+}
+blockquote > p{
+	font-size: 24px;
+	color: rgba(128, 128, 128, 0.9); 
+}
+#kutip{
+	font-family: "necroman";
+	font-size: 50px;
+}
+#quote{
+	text-align: right;
+	font-style: italic;
+}
+.button{
+	background: #E14848;
+	border-radius: 5px;
+	float: right;
+	font-size: 15px;
+	padding: 20px 15px;
+	margin-top: 25px;
+	text-align: center;
+}
+.button > a{
+	font-weight: bold;
+	text-decoration : none;
+	color: white;
+}
+.content2{
+	border-bottom:3px solid #777;
+	padding-bottom: 30px;
+}
+.footer-link > a, p > a{
+	color:#007832;
+	text-decoration: none;
+}
+.footer-link > a:hover, p > a:hover{
+	color:#00B44B;;
+}
+.footer-link > a{
+	padding-left:10px;
+}
+.logo > p{
+	font-family: "helvetican";
+	margin: 0;
+	font-size: 12px;
+}
+footer > .logo{
+	margin-top: 40px;
+}
